@@ -1,0 +1,31 @@
+{
+  "name": "@nathanfaucett/get_user_media",
+  "version": "0.0.1",
+  "description": "get user media shim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/js-get_user_media.git"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "get_user_media",
+    "get_user_media.js"
+  ],
+  "scripts": {
+    "example": "comn -f ./example/src/index.js -o ./example/index.js"
+  },
+  "author": "Nathan Faucett",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "@nathanfaucett/comn": "^0.0.13",
+    "@nathanfaucett/task": "^0.0.8",
+    "gulp-jsbeautifier": "^2.1.0",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4"
+  },
+  "dependencies": {
+    "@nathanfaucett/environment": "^0.0.2",
+    "@nathanfaucett/is_native": "^0.0.2"
+  }
+}
