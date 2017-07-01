@@ -1,15 +1,15 @@
 {
-  "name": "@nathanfaucett/get_user_media",
+  "name": "@nathanfaucett/media_devices",
   "version": "0.0.1",
-  "description": "get user media shim",
+  "description": "user media devices helpers",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathanfaucett/js-get_user_media.git"
+    "url": "https://github.com/nathanfaucett/js-media_devices.git"
   },
   "main": "src/index.js",
   "keywords": [
-    "get_user_media",
-    "get_user_media.js"
+    "media_devices",
+    "media_devices.js"
   ],
   "scripts": {
     "example": "comn -f ./example/src/index.js -o ./example/index.js"
@@ -18,7 +18,10 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
+    "@nathanfaucett/array-for_each": "^0.0.1",
     "@nathanfaucett/comn": "^0.0.13",
+    "@nathanfaucett/event_listener": "^0.0.2",
+    "@nathanfaucett/is_undefined": "^0.0.1",
     "@nathanfaucett/task": "^0.0.8",
     "gulp-jsbeautifier": "^2.1.0",
     "gulp-jshint": "^2.0.4",
@@ -26,6 +29,7 @@
   },
   "dependencies": {
     "@nathanfaucett/environment": "^0.0.2",
-    "@nathanfaucett/is_native": "^0.0.2"
+    "@nathanfaucett/is_function": "^0.0.1",
+    "webrtc-adapter": "^4.1.0"
   }
 }
